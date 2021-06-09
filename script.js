@@ -36,7 +36,7 @@ const renderTitles = function (data) {
     deleteTitle[i].addEventListener("click", function (postId) {
       postId.preventDefault();
       deletePostInfo(data[i]);
-      popUpModal.style.display = "none";
+      popUpModal.style.display = "none"; add
     });
   }
 };
