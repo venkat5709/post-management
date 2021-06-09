@@ -1,0 +1,174 @@
+body {
+  background-color:rgb(178, 218, 218);
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.heading{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 0  2px 2px rgba(100,100,100,.5);
+}
+
+.title {
+  color:black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 30%;
+  border-radius: 0.5rem;
+  border-style: ridge;
+  width: 45%;
+  padding: 4rem;
+  background-color: white;
+  cursor: pointer;
+  line-height: 23px;
+}
+.title:hover {
+  background-color: rgb(130, 231, 189);
+}
+.deleteTitle,img {
+  margin-left: 3%;
+  font-size: large;
+  border-radius: 0.3rem;
+  border-style: ridge;
+  cursor: pointer;
+  width:50px;
+  height:50px;
+  }
+.deleteTitle:hover {
+  color: #fefefe;
+  background-color: rgb(252, 8, 8);
+}
+.popupForm {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 90px; 
+  left: 20%;
+  top: 30%;
+  font-size: large;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid rgba(200,100,70,.8);
+  box-shadow: 0 0 2px 2px rgba(100,100,100,.9);
+  border-radius: 5%;
+  transition:ease-in-out 30s;
+  width: 60%;
+}
+.close {
+  color:black;
+  float: right;
+  font-size: small;
+  text-align: left;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.close:hover {
+   text-decoration: none;
+   cursor: pointer;
+}
+#newPost {
+  /* display: none; */
+  position: absolute;
+  top: 15%;
+  left:56%;
+  margin-right: 100px;
+  width: 44%;
+  height: 100%;
+  border-radius: 5px;
+  z-index: 1;
+ 
+
+}
+
+.newPost{
+  width:100%;
+  position: fixed;
+  display: -moz-popup;
+  padding-top: 10px;
+  left: 70%;
+  justify-content: center;
+  align-items: center;
+
+ 
+ }
+ .form{
+   height: 500px;
+   width: 400px;
+   background: rgb(85, 83, 83);
+   padding: 20px;
+   margin-right: 10px;
+   border-radius: 10px;
+   position: relative;
+ }
+ .form label{
+   font-size: 18px;
+   color:rgb(245, 240, 240);
+   font-weight: 600;
+   
+
+ }
+input[type="number"],
+select,
+textarea {
+  width: 90%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  resize: vertical;
+}
+
+#newPostCeateBtn {
+  width:100px;
+  height: 45px;
+  float: right;
+  cursor: pointer;
+  margin-right: 20px;
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(35, 89, 240);
+  border-color:rgb(35, 89, 240);;
+}
+#newPostCeateBtn:hover {
+  color: rgb(250, 249, 249);
+}
+
+#newPostCloseBtn {
+  width:100px;
+  height: 45px;
+  float: left;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: rgb(252, 6, 6);
+  color: white;
+  border-color: white;
+}
+#newPostCloseBtn:hover {
+  color: rgb(250, 249, 249);
+}
+.createBtn {
+    position: fixed;
+    right: 20px;
+    top: 25px;
+  border-radius: 12%;
+  background-color: rgba(134, 139, 137, 0.753);
+  color: rgb(17, 14, 14);
+  width: 80px;
+  height: 50px;
+  cursor: pointer;
+  border-color: rgba(47, 51, 49, 0.753);
+  border-style:solid;
+}
+.createBtn span{
+  font-size: 16px;
+  font-weight: 600;
+}
+.createBtn:hover {
+  color: #0a0909;
+  border-color: rgba(250, 252, 251, 0.685); ;
+}
