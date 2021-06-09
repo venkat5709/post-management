@@ -37,7 +37,7 @@ body {
   width:50px;
   height:50px;
   }
-.deleteTitle:hover {
+.deleteTitle,img:hover {
   color: #fefefe;
   background-color: rgb(252, 8, 8);
 }
